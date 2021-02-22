@@ -8,4 +8,4 @@ my_report = sweetviz.compare([train, "Train"], [test, "Test"], "Survived")
 my_report.show_html("Report.html") # Not providing a filename will default to SWEETVIZ_REPORT.html
 
 #link to article that explains sweetviz
-# < https://www.kdnuggets.com/2021/02/powerful-exploratory-data-analysis-sweetviz.html#.YDPxqT7s0o0.linkedin >
+# < https://www.kdnuggets.com/2021/02/powerful-exploratory-data-analysis-sweetviz.html >

@@ -1,0 +1,8 @@
+import sweetviz
+import pandas as pd
+train = pd.read_csv("train.csv")
+test = pd.read_csv("test.csv")
+
+my_report = sweetviz.compare([train, "Train"], [test, "Test"], "Survived")
+
+my_report.show_html("Report.html") # Not providing a filename will default to SWEETVIZ_REPORT.html
